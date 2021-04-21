@@ -18,11 +18,11 @@ const displayProduct = async () => {
         <h3>${product.brand} || ${product.name}</h3>
         <h4>€ ${product.price}</h4>
         <p>${product.description}</p>
+        <button type="button" class="btn btn-outline-success">Buy Now</button>
       </div>
     </div>
     `
 }
-
 
 window.onload = displayProduct
 
