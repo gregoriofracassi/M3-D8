@@ -12,6 +12,7 @@ const displayProducts = async () => {
     row.innerHTML = products.map(
         pr => {
             return         `
+            <a href="product-page.html?id=${pr._id}"
             <div class="col-3">
             <div class="card p-2">
                 <img class="img-fluid card-img-top" src="${pr.imageUrl}" alt="Card image cap">
