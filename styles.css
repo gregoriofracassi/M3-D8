@@ -1,0 +1,12 @@
+a:hover {
+  text-decoration: none;
+  color: rgb(0, 214, 29);
+}
+
+a {
+  color: black;
+}
+
+.pointer {
+  cursor: pointer;
+}
