@@ -15,7 +15,7 @@ const displayProduct = async () => {
     <div class="card">
       <img class="card-img-top" src="${product.imageUrl}" alt="Card image cap">
       <div class="card-body">
-        <h3>${product.brand} || ${product.name}</h3>
+        <h3>${product.brand}<span class="text-success"> || </span>${product.name}</h3>
         <h4>€ ${product.price}</h4>
         <p>${product.description}</p>
         <button type="button" class="btn btn-outline-success">Buy Now</button>
